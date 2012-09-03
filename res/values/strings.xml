@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">LectorFeed</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">LectorFeed</string>
+    <string name="boton_feed">Enviar</string>
+    <string name="txtw_desc_feed">Presione el botón para cargar datos</string>
+
+</resources>

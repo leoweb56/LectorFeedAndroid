@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LL01"
+            android:orientation="vertical" >
+
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LL02"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvLoadTip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="@string/txtw_desc_feed" />
+
+             <Button                   
+                 android:id="@+id/btnLoad"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/boton_feed">
+         	</Button>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/lstData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+    	</ListView>
+        
+</LinearLayout>
+        
+
+
+</RelativeLayout>
